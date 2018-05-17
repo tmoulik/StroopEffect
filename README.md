@@ -1,5 +1,8 @@
-# StroopEffect
-Project: Hypothesis testing for Stroop Effect.
+# StroopEffect.ipynb
+
+StroopEffect.ipynb contains code to do a hypothesis testing for the Stroop Effect.
+This code was written as part of the Udacity Project work.The code runs on the data: 
+stroopeffect.csv 
 
 More information on the stroop Effect can be found here:
 https://faculty.washington.edu/chudler/words.html
@@ -7,13 +10,11 @@ https://faculty.washington.edu/chudler/words.html
 And the stroop test can be taken here:
 https://faculty.washington.edu/chudler/java/ready.html
 
-The code is based on the data: stroopeffect.csv 
-
 ## Installation: 
 To use this code, you would need to install Jupyter.
 
 ## Description:
-The strooptest tests whether there is a time difference in correctly identifying the color while reading congruent vs. incongruent word.
+The code tests whether there is a time difference in correctly identifying the color while reading congruent vs. incongruent word.
 
 The null hypothesis is that the time taken to say the color is independent of the type of word, i.e. there is no effect on the time given any type of word. Hence the difference in their times is <=0. The alternative hypothesis is that the time to taken to read incongruent words is greater.
 
